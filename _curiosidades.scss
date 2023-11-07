@@ -1,0 +1,22 @@
+@import '../abstract/variariaveis';
+
+#curiosidades {
+    padding: 1rem;
+    text-align: center;
+    margin: 5px;
+    h3 {
+        color: $cor-secundaria;
+        font-size: $tamanho-do-texto/2.5;
+        padding: .50rem;
+        text-transform: uppercase;
+    }
+    h4 {
+        color: $cor-terciaria;
+        font-size: $tamanho-do-texto/3;
+        padding: .50rem;
+    }
+    p {
+        margin-top: 5px;
+        color: $cor-secundaria;
+    }
+}
